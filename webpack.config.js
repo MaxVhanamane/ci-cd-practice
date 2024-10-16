@@ -8,6 +8,7 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/'
   },
+
   module: {
     rules: [
       {
@@ -49,5 +50,6 @@ module.exports = {
       template: "./public/index.html",
       filename: "./index.html",
     }),
+
   ],
 };

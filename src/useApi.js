@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react'
-import axios from 'axios'
+import { useEffect, useState } from "react"
+import axios from "axios"
 
 const useApi = (url, mapResults = (result) => result) => {
   const [data, setData] = useState()
@@ -18,3 +18,5 @@ const useApi = (url, mapResults = (result) => result) => {
 }
 
 export { useApi }
+
+
